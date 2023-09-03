@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //Exercicio 1
+        /*
+        var numero_1 = parseInt(prompt("Informe o primeiro número"));
+        var numero_2 = parseInt(prompt("Informe o segundo número"));
+        var resultado;
+
+        while(numero_2 <= 0){
+           var numero_2 = parseInt(prompt("Informe um número maior que 0"));
+        }
+        
+        resultado = numero_1 / numero_2;
+        alert("O resultado é: " + resultado);
+        */
+
+        //Exercicio 2
+        /*
+        var inicio = 30;
+        var final = 0;
+
+        while(inicio >= final){
+            document.write("<p>Faltam " + inicio + " Segundo</p>");
+            inicio--;
+        }
+        document.write("<p>Exposão</p>");
+        */
+
+        //Exercicio 3
+        /*
+        var inicio = 10;
+        var final = 1;
+
+        while(inicio >= final){
+            document.write("<p> " + inicio + " </p>");
+            inicio--;
+        }
+        */
+
+        //Exercicio 4
+        /*
+        var soma = 0;
+        var contador = 0;
+        var media;
+
+        for (inicio = 15; inicio <= 100; inicio++) {
+            soma += inicio;
+            contador++;
+        }
+
+        media = soma / contador;
+        alert("A média dos números entre 15 e 100 é: " + media);
+        */
+
+        //Exercicio 5
+        /*
+        var soma = 0;
+        var contador = 0;
+        var media;
+        var numero_1 = parseInt(prompt("Informe o primeiro número"));
+        var numero_2 = parseInt(prompt("Informe o segundo número"));
+        var numero_3 = numero_1;
+        for (numero_1; numero_1 <= numero_2; numero_1++) {
+            soma += numero_1;
+            contador++;
+        }
+
+        media = soma / contador;
+        alert("A média dos números entre " + numero_3 + " e " + numero_2 +" é: " + media);
+        */
+
+        //Exercicio 6
+        /*
+        var aprovado = 0;
+
+        do{
+            var numero_1 = parseFloat(prompt("Informe a primeira nota"));
+            var numero_2 = parseFloat(prompt("Informe a segunda nota"));
+            var media;
+
+            media = (numero_1 + numero_2)/2;
+
+            if(media >= 9.5){
+                aprovado++;
+            }
+
+            var continuar = prompt("Calcular a média de outro aluno Sim/Não?");
+
+        }while(continuar === "sim");
+
+        alert("A quantidade de alunos aprovados é: " + aprovado);
+        */
+
+        //Exercicio 7
+        /*
+        var numero_1 = parseFloat(prompt("Informe a primeira nota"));
+        var numero_2 = parseFloat(prompt("Informe a segunda nota"));
+        var numero_3 = parseFloat(prompt("Informe a terceira nota"));
+        var numero_4 = parseFloat(prompt("Informe a quarta nota"));
+        var numero_5 = parseFloat(prompt("Informe a quinta nota"));
+        var numero_6 = parseFloat(prompt("Informe a sexta nota"));
+        var media;
+
+        while(numero_1 < 0 || numero_1 > 10){
+            var numero_1 = parseFloat(prompt("A primeira nota deve estar entre 0 e 10"));
+        }
+        while(numero_2 < 0 || numero_2 > 10){
+            var numero_2 = parseFloat(prompt("A segunda nota deve estar entre 0 e 10"));
+        }
+        while(numero_3 < 0 || numero_3 > 10){
+            var numero_3 = parseFloat(prompt("A terceira nota deve estar entre 0 e 10"));
+        }
+        while(numero_4 < 0 || numero_4 > 10){
+            var numero_4 = parseFloat(prompt("A quarta nota deve estar entre 0 e 10"));
+        }
+        while(numero_5 < 0 || numero_5 > 10){
+            var numero_5 = parseFloat(prompt("A quinta nota deve estar entre 0 e 10"));
+        }
+        while(numero_6 < 0 || numero_6 >10){
+            var numero_6 = parseFloat(prompt("A sexta nota deve estar entre 0 e 10"));
+        }
+
+        media = (numero_1 + numero_2 + numero_3 + numero_4 + numero_5 + numero_6)/6;
+
+        alert("A média do aluno é: " + media);
+        */
+
+        //Exercicio 8
+        /*
+        var numero = 1;
+        var n = parseInt(prompt("Informe um número"));
+
+        while(numero <= n){
+            document.write("<p> " +numero+ "</p>");
+            numero++;
+        }
+        */
+
+        //Exercicio 9
+        /*
+        var numero = 100;
+        var final = 110;
+
+        while(numero <= final){
+            document.write("<p> " +numero+ "</p>");
+            numero++;
+        }
+        */
+
+        //Exercicio 10
+        /*
+        var inicio = 1;
+        var n = parseInt(prompt("Informe até qual tabuada gostaria de ver"));
+
+        if(n <= 0){
+            alert("Digite um número maior que zero");
+        }else{
+
+            for(inicio; inicio <= n; inicio++){
+
+                document.write("tábuada do " + inicio);
+
+                for(m = 1; m <= 10; m++){
+
+                    var resultado = inicio * m;
+                    document.write("<p> "+inicio+ "x" + m + "= " + resultado+"</p>");
+                }
+
+                document.write("<p>________________________________________</p>");
+
+            }
+
+        }
+        */
+
+        //Exercicio 11
+        /*
+        var dentro = 0;
+        var fora = 0;
+
+        for(numero = 1; numero <= 10; numero++){
+
+            var valor = parseInt(prompt("Digite o valor " + numero));
+
+            if(valor >= 24 && valor <= 42){
+                dentro++;
+            }else{
+                fora++;
+            }
+        }
+
+        alert("A quantidade de números entre 24 e 42 é: " + dentro);
+        alert("A qauntidade de números maiores ou menores que 24 e 42 é: " + fora);
+        */
+
+
+    </script>
+
+</body>
+</html>
